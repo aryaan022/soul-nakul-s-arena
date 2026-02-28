@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import StatsSection from "@/components/StatsSection";
+import HeartEffect from "@/components/HeartEffect";
 import { motion } from "framer-motion";
 import trophyKiss from "@/assets/trophy-kiss.png";
 import proSeries from "@/assets/pro-series.png";
@@ -9,6 +10,7 @@ import { Link } from "react-router-dom";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background pt-16">
+      <HeartEffect />
       <HeroSection />
       <StatsSection />
 

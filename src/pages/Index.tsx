@@ -12,8 +12,8 @@ import { Link } from "react-router-dom";
 import { Instagram, Youtube, Twitter } from "lucide-react";
 
 const socials = [
-  { icon: Instagram, href: "https://instagram.com/nakulbgmi", label: "Instagram" },
-  { icon: Youtube, href: "https://youtube.com/@soulnakul", label: "YouTube" },
+  { icon: Instagram, href: "https://www.instagram.com/ig.nakul777/", label: "Instagram" },
+  { icon: Youtube, href: "https://www.youtube.com/@SouLNakuL", label: "YouTube" },
   { icon: Twitter, href: "https://x.com/soulnakul", label: "X / Twitter" },
 ];
 

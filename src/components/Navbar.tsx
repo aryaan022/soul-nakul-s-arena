@@ -11,8 +11,8 @@ const links = [
 ];
 
 const socials = [
-  { icon: Instagram, href: "https://instagram.com/nakulbgmi", label: "Instagram" },
-  { icon: Youtube, href: "https://youtube.com/@soulnakul", label: "YouTube" },
+  { icon: Instagram, href: "https://www.instagram.com/ig.nakul777/", label: "Instagram" },
+  { icon: Youtube, href: "https://www.youtube.com/@SouLNakuL", label: "YouTube" },
   { icon: Twitter, href: "https://x.com/soulnakul", label: "X" },
 ];
 
@@ -60,7 +60,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="https://instagram.com/nakulbgmi"
+            href="https://www.instagram.com/ig.nakul777/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-1.5 border border-glow rounded-full text-xs font-display uppercase tracking-wider text-primary hover:bg-primary/10 transition-colors"
@@ -98,7 +98,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <a
-                href="https://instagram.com/nakulbgmi"
+                href="https://www.instagram.com/ig.nakul777/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary text-xs font-display uppercase"

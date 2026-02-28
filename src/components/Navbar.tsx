@@ -1,13 +1,19 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Instagram, Youtube, Twitter } from "lucide-react";
 
 const links = [
   { to: "/", label: "Home" },
   { to: "/gallery", label: "Gallery" },
   { to: "/about", label: "About" },
   { to: "/setup", label: "Setup" },
+];
+
+const socials = [
+  { icon: Instagram, href: "https://instagram.com/nakulbgmi", label: "Instagram" },
+  { icon: Youtube, href: "https://youtube.com/@soulnakul", label: "YouTube" },
+  { icon: Twitter, href: "https://x.com/soulnakul", label: "X" },
 ];
 
 const Navbar = () => {
@@ -39,15 +45,29 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* Instagram badge */}
-        <a
-          href="https://instagram.com/nakulbgmi"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hidden md:flex items-center gap-2 px-4 py-1.5 border border-glow rounded-full text-xs font-display uppercase tracking-wider text-primary hover:bg-primary/10 transition-colors"
-        >
-          <span>📸</span> 100K on Insta!
-        </a>
+        {/* Social links + badge */}
+        <div className="hidden md:flex items-center gap-4">
+          {socials.map((s) => (
+            <a
+              key={s.label}
+              href={s.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary hover:scale-110 transition-all duration-300"
+              aria-label={s.label}
+            >
+              <s.icon size={18} />
+            </a>
+          ))}
+          <a
+            href="https://instagram.com/nakulbgmi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-1.5 border border-glow rounded-full text-xs font-display uppercase tracking-wider text-primary hover:bg-primary/10 transition-colors"
+          >
+            <span>📸</span> 100K on Insta!
+          </a>
+        </div>
 
         {/* Mobile toggle */}
         <button onClick={() => setOpen(!open)} className="md:hidden text-foreground">

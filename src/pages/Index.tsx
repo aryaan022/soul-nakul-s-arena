@@ -4,6 +4,9 @@ import StatsSection from "@/components/StatsSection";
 import HeartEffect from "@/components/HeartEffect";
 import VideoHighlights from "@/components/VideoHighlights";
 import CinematicIntro from "@/components/CinematicIntro";
+import AchievementsShowcase from "@/components/AchievementsShowcase";
+import InstagramEmbed from "@/components/InstagramEmbed";
+import CustomCursor from "@/components/CustomCursor";
 import { motion } from "framer-motion";
 import trophyKiss from "@/assets/trophy-kiss.png";
 import proSeries from "@/assets/pro-series.png";
@@ -25,10 +28,11 @@ const Index = () => {
     <>
       {!introComplete && <CinematicIntro onComplete={handleIntroComplete} />}
       <div className="min-h-screen bg-background pt-16">
+        <CustomCursor />
         <HeartEffect />
         <HeroSection />
         <StatsSection />
-
+        <AchievementsShowcase />
         {/* Instagram milestone */}
         <section className="py-16 relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-accent/5 to-primary/5" />
@@ -96,6 +100,8 @@ const Index = () => {
             </div>
           </div>
         </section>
+
+        <InstagramEmbed />
 
         {/* Footer */}
         <footer className="py-12 border-t border-border">

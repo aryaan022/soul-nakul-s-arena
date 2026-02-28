@@ -71,11 +71,16 @@ const Gallery = () => {
               transition={{ delay: i * 0.05 }}
               className="group relative cursor-pointer overflow-hidden rounded-lg border border-glow bg-card"
               onClick={() => setSelected(i)}
+              style={{ transformStyle: "preserve-3d" }}
+              whileHover={{ y: -8, rotateX: 2, rotateY: -2 }}
             >
-              <img
+              <motion.img
                 src={photo.src}
                 alt={photo.caption}
                 className="w-full aspect-[4/5] object-cover transition-transform duration-500 group-hover:scale-110"
+                whileInView={{ y: [20, 0] }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.6, delay: i * 0.05 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">

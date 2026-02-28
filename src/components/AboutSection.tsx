@@ -17,20 +17,19 @@ const AboutSection = () => {
 
           <div className="bg-card border border-glow rounded-lg p-8 md:p-12 box-glow-cyan">
             <p className="text-lg text-muted-foreground font-body leading-relaxed mb-6">
-              Soul Nakul is one of the most skilled BGMI esports players representing
-              <span className="text-primary font-semibold"> Team Soul</span> — India's most iconic
-              esports organization. Known for his aggressive gameplay, sharp reflexes, and
-              clutch plays, Nakul has made a name for himself in the competitive gaming scene.
+              Nakul "NakuL" Sharma is one of BGMI's top In-game Leaders (IGL), currently representing
+              <span className="text-primary font-semibold"> Team SouL</span> — India's most iconic
+              esports organization. After proving himself with Global Esports and Blind eSports,
+              he joined Team SouL on January 1, 2024, bringing elite strategy and leadership.
             </p>
             <p className="text-lg text-muted-foreground font-body leading-relaxed mb-8">
-              From dominating scrims to delivering under pressure in major tournaments,
-              Soul Nakul continues to push the boundaries of what's possible on the
-              battlegrounds. His dedication to the craft and hunger for victory make him
-              a force to be reckoned with.
+              With 43+ tournaments, $91K+ in earnings, and titles like BGMI Masters Series,
+              BGMI Pro Series, and CEGC 2025, Nakul continues to dominate the competitive
+              scene. His hunger for victory makes him a force to be reckoned with.
             </p>
 
             <div className="flex flex-wrap gap-3 justify-center">
-              {["BGMI", "Team Soul", "IGL", "Assaulter", "Clutch King"].map((tag) => (
+              {["BGMI", "Team SouL", "IGL", "Strategist", "Champion"].map((tag) => (
                 <span
                   key={tag}
                   className="px-4 py-1.5 border border-glow rounded-full text-xs font-display uppercase tracking-wider text-primary"

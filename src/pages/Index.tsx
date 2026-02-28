@@ -44,7 +44,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               { src: trophyKiss, label: "CEGC 2025 Champion" },
-              { src: proSeries, label: "Pro Series 2023" },
+              { src: proSeries, label: "BMPS 2023 (Blind eSports)" },
               { src: teamPhoto, label: "Squad Goals" },
             ].map((img, i) => (
               <motion.div

@@ -30,7 +30,7 @@ const HeroSection = () => {
             <span className="text-primary text-glow-cyan">Nakul</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground font-body mt-6 max-w-md mx-auto lg:mx-0">
-            Dominating the battlegrounds with precision, strategy, and an unwavering will to win.
+            In-game Leader (IGL) • 43+ tournaments • $91K+ earnings • CEGC 2025 Champion
           </p>
 
           <motion.div

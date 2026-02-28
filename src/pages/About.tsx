@@ -4,10 +4,10 @@ import trophyKiss from "@/assets/trophy-kiss.png";
 import proSeries from "@/assets/pro-series.png";
 
 const timeline = [
-  { year: "2021", title: "Joined Team Soul", desc: "Became part of India's most iconic BGMI esports org." },
-  { year: "2023", title: "BGMI Pro Series Champion", desc: "Led the team to victory at Pro Series 2023." },
-  { year: "2024", title: "Consistency & Growth", desc: "Delivered clutch performances across multiple LANs." },
-  { year: "2025", title: "CEGC 2025 Champion", desc: "Won the CEGC championship and hit 100K on Instagram! 🎉" },
+  { year: "2022", title: "Joined Global Esports", desc: "Started competitive career. Won TEC BGMI Invitational S4 & BGMI Masters Series S1." },
+  { year: "2023", title: "Blind eSports Era", desc: "Joined Blind eSports. Won Skyesports Champions Series, Skyesports Championship 5.0 & BGMI Pro Series 2023." },
+  { year: "Jan 2024", title: "Joined Team SouL", desc: "Joined India's most iconic esports org on January 1, 2024. Won BGMI Masters Series S3." },
+  { year: "2025", title: "CEGC 2025 Champion", desc: "Won CEGC 2025 + Best IGL Award. Hit 100K on Instagram! 🎉" },
 ];
 
 const About = () => {
@@ -45,19 +45,21 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground font-body text-lg leading-relaxed">
               <p>
-                Soul Nakul is one of BGMI's most feared assaulters. A member of the legendary
-                <span className="text-primary font-semibold"> Team Soul</span>, he brings raw aggression
-                paired with razor-sharp game sense to every match.
+                Nakul "NakuL" Sharma (born August 23, 2004) is one of BGMI's top In-game Leaders. 
+                Currently representing <span className="text-primary font-semibold">Team SouL</span>, 
+                he brings elite strategy and leadership to every match.
               </p>
               <p>
-                From grinding ranked games to winning LAN championships, Nakul's journey is a testament
-                to hard work and passion. He recently celebrated hitting
-                <span className="text-accent font-semibold"> 100K followers on Instagram</span> — a milestone
-                earned through pure skill and personality.
+                Starting with Global Esports in 2022, then dominating with Blind eSports in 2023 
+                (winning Pro Series, Skyesports Champions Series & more), Nakul joined Team SouL 
+                on January 1, 2024. With <span className="text-accent font-semibold">$91K+ earnings</span> across 
+                43+ tournaments and awards like Best IGL (CEGC 2025) and Fan Favourite Player (2024), 
+                his journey is a testament to hard work and passion.
               </p>
               <p>
-                Off the battleground, he's known for his Batman obsession 🦇, chill vibes,
-                and love for the esports community.
+                He recently celebrated hitting
+                <span className="text-accent font-semibold"> 100K followers on Instagram</span>! 
+                Off the battleground, he's known for his Batman obsession 🦇 and love for the community.
               </p>
             </div>
           </motion.div>
@@ -72,12 +74,15 @@ const About = () => {
               <h3 className="font-display text-sm uppercase text-primary mb-4 tracking-widest">Quick Facts</h3>
               <div className="space-y-3 font-body">
                 {[
-                  ["IGN", "iQOOSouLNakuL"],
-                  ["Team", "Team Soul (iQOO)"],
-                  ["Role", "Assaulter / Flex"],
-                  ["Game", "BGMI (Battlegrounds Mobile India)"],
+                  ["Real Name", "Nakul Sharma (नकुल शर्मा)"],
+                  ["Born", "August 23, 2004"],
+                  ["IGN", "NakuL"],
+                  ["Team", "Team SouL (Jan 2024–Present)"],
+                  ["Role", "In-game Leader (IGL)"],
+                  ["Game", "BGMI"],
+                  ["Earnings", "$91,435+ (43+ tournaments)"],
                   ["Instagram", "100K+ Followers 🎉"],
-                  ["Signature", "Clutch plays & aggressive pushes"],
+                  ["Teammates", "Goblin, Jokerr, LEGIT, Thunder"],
                 ].map(([key, val]) => (
                   <div key={key} className="flex justify-between border-b border-border pb-2">
                     <span className="text-muted-foreground text-sm">{key}</span>

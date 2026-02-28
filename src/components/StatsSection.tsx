@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { label: "Tournament Wins", value: "15+", icon: "🏆" },
-  { label: "Total Kills", value: "5000+", icon: "🎯" },
-  { label: "K/D Ratio", value: "4.2", icon: "⚡" },
-  { label: "Fans", value: "500K+", icon: "❤️" },
+  { label: "Tournaments Played", value: "43+", icon: "🎮" },
+  { label: "Tournament Wins", value: "8+", icon: "🏆" },
+  { label: "Total Earnings", value: "$91K+", icon: "💰" },
+  { label: "Instagram", value: "100K+", icon: "❤️" },
 ];
 
 const StatsSection = () => {
